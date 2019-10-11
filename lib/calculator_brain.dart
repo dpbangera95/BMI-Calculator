@@ -27,7 +27,7 @@ class CalculatorBrain {
     if (_bmi >= 25) {
       return 'You have a higher than normal body weight. Try to exercise more.';
     } else if (_bmi > 18.5) {
-      return 'You BMI falls in the normal category. Good Job!';
+      return 'Your BMI falls in the normal category. Good Job!';
     } else {
       return 'You have a lower than normal body weight. You can try snacking on something a little.';
     }
